@@ -1,0 +1,17 @@
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+ 
+  --color-bg: #F1F2F6;
+  --color-darkbg:#0C090D;
+  --color-text-primary: #0C090D;
+  --color-text-dark:#F1F2F6;
+}
+
+body{
+  overflow-x: hidden;
+ 
+  font-family:'Poppins',sans-serif;
+}
